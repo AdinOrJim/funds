@@ -7,3 +7,8 @@
     width: 100%;
     height: auto;
   }
+
+  .specialText {
+    font-style: italic;
+    font-size: large;
+  }
