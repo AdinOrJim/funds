@@ -1,15 +1,17 @@
-import React from 'react';
+import React, {useState, useEffect} from 'react';
 import '../css/Footer.css'
 
 function Footer() {
-    let currentDate = new Date().toLocaleString();
+    
+            let clock = new Date().toLocaleString();
+           
     return (
         <div className="Footer">
             <p>
                 Adin O copyright 2020
             </p>
             <p>
-                {currentDate}
+                {clock}
             </p>
         </div>
     )
